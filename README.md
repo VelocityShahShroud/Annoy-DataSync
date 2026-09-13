@@ -77,7 +77,7 @@ Due to our collaborators' compliance requirements, we only release the PythonEdu
         <td style="text-align: center; vertical-align: middle;"><a href="https://huggingface.co/dghjjjdj/qwen2.5-7b-coder_spec_stage1">🤗</a></td>
         <td style="text-align: center; vertical-align: middle;"><a href="https://huggingface.co/dghjjjdj/qwen2.5-7b-coder_spec">🤗</a></td>
         <td style="text-align: center; vertical-align: middle;"><a href="https://huggingface.co/dghjjjdj/qwen2.5-7b-coder_spec_pp_stage1">🤗</a></td>
-        <td style="text-align: center; vertical-align: middle;"><a href="https://huggingface.co/dghjjjdj/dghjjjdj/qwen2.5-7b-coder_spec_pp">🤗</a></td>
+        <td style="text-align: center; vertical-align: middle;"><a href="https://huggingface.co/dghjjjdj/qwen2.5-7b-coder_spec_pp">🤗</a></td>
     </tr>
     <tr>
         <td>LLaMA 3.1 8B</td>
@@ -226,9 +226,7 @@ You can use any popular training framework to train your model like [llama-facto
 
 ## License
 
-The Annoy-DataSync code in this repository is released under the MIT License.
-
-The released datasets **Annoy-PythonEdu-Rs** and **Annoy-PythonEdu-Rs-Raw** are adopted/derived from HuggingFaceTB's PythonEdu subset of SmolLM-Corpus, which is licensed under the [Open Data Commons Attribution License (ODC-By)](https://opendatacommons.org/licenses/by/). Therefore, both released datasets are released under **ODC-By**. Please attribute the original HuggingFaceTB/SmolLM-Corpus source when using these datasets.
+The released datasets **Annoy-PythonEdu-Rs** and **Annoy-PythonEdu-Rs-Raw** are adopted/derived from HuggingFaceTB's PythonEdu subset of SmolLM-Corpus, which is licensed under the [Open Data Commons Attribution License (ODC-By)](https://opendatacommons.org/licenses/by/). Therefore, both released datasets are released under **ODC-By**, directly reusing the upstream dataset source license. Please attribute the original HuggingFaceTB/SmolLM-Corpus source when using these datasets.
 
 ## Acknowledgement
 We thank Koala NN, TCLV and OMEN for their valuable feedback and suggestions! 🤝🤝🤝
