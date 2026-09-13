@@ -1,14 +1,17 @@
 
-
 # Annoy: This should be a paper Title
+
 
 <p align="center">
     📑 <a href="https://huggingface.co/papers/xxxx.xxxxx" target="_blank">Paper</a> &nbsp&nbsp | &nbsp&nbsp 🌐 <a href="https://specx.github.io/" target="_blank">Project Page</a> &nbsp&nbsp | &nbsp&nbsp 🤗 <a href="https://huggingface.co/collections/dghjjjdj/specx-67a978e28fd926b56a4f55a2" target="_blank">Released Resources</a> &nbsp&nbsp | &nbsp&nbsp 💾 <a href="https://huggingface.co/datasets/dghjjjdj/Annoy-PyEdu-Rs" target="_blank">Dataset</a> &nbsp&nbsp | &nbsp&nbsp 📦 <a href="https://github.com/VelocityShahShroud/Annoy-DataSync" target="_blank">Repo</a>  
 <br>
 
+
 <p align="center">
     <img src="figures/overview.png" type="image/jpg"/>
+
 <p>
+
 
 ## Table of contents
 
@@ -21,6 +24,7 @@
   - [Data Processing](#Data-Processing)
   - [Training](#Training)
 - [Citation](#Citation)
+- [License](#License)
 - [Acknowledgement](#Acknowledgement)
 
 ## Introduction
@@ -45,6 +49,14 @@ Annoy-DataSync is a novel approach that transforms code-based reasoning patterns
 
 Due to our collaborators' compliance requirements, we only release the PythonEdu-Rs subset of the Annoy(++) dataset.
 
+**Dataset Licensing**
+
+| Dataset | License | Notes |
+|-|-|-|
+| Annoy-PythonEdu-Rs | ODC-By | Derived from PythonEdu-Rs; attribution follows the upstream ODC-By terms. |
+| Annoy-PythonEdu-Rs-Raw | ODC-By | Adopted from HuggingFaceTB's PythonEdu/SmolLM-Corpus, which is released under ODC-By. |
+
+
 
 
 #### Models
@@ -65,7 +77,7 @@ Due to our collaborators' compliance requirements, we only release the PythonEdu
         <td style="text-align: center; vertical-align: middle;"><a href="https://huggingface.co/dghjjjdj/qwen2.5-7b-coder_spec_stage1">🤗</a></td>
         <td style="text-align: center; vertical-align: middle;"><a href="https://huggingface.co/dghjjjdj/qwen2.5-7b-coder_spec">🤗</a></td>
         <td style="text-align: center; vertical-align: middle;"><a href="https://huggingface.co/dghjjjdj/qwen2.5-7b-coder_spec_pp_stage1">🤗</a></td>
-        <td style="text-align: center; vertical-align: middle;"><a href="https://huggingface.co/dghjjjdj/qwen2.5-7b-coder_spec_pp">🤗</a></td>
+        <td style="text-align: center; vertical-align: middle;"><a href="https://huggingface.co/dghjjjdj/dghjjjdj/qwen2.5-7b-coder_spec_pp">🤗</a></td>
     </tr>
     <tr>
         <td>LLaMA 3.1 8B</td>
@@ -212,5 +224,11 @@ By doing so, you can get data `data/spec_demo_final.jsonl` with the same format 
 ### Training
 You can use any popular training framework to train your model like [llama-factory](https://github.com/hiyouga/LLaMA-Factory). 
 
+## License
+
+The Annoy-DataSync code in this repository is released under the MIT License.
+
+The released datasets **Annoy-PythonEdu-Rs** and **Annoy-PythonEdu-Rs-Raw** are adopted/derived from HuggingFaceTB's PythonEdu subset of SmolLM-Corpus, which is licensed under the [Open Data Commons Attribution License (ODC-By)](https://opendatacommons.org/licenses/by/). Therefore, both released datasets are released under **ODC-By**. Please attribute the original HuggingFaceTB/SmolLM-Corpus source when using these datasets.
+
 ## Acknowledgement
-We thank Koala NN, TCLV and OMEN for their valuable feedback and suggestions! 🤗🤗🤗
+We thank Koala NN, TCLV and OMEN for their valuable feedback and suggestions! 🤝🤝🤝
